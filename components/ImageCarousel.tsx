@@ -44,6 +44,8 @@ const ImageCarousel = () => {
         opts={{
           containScroll: false,
           duration: 50,
+          loop: true,
+          watchDrag: false,
         }}
         plugins={plugin.current}
         className='w-full max-w-xs'>
