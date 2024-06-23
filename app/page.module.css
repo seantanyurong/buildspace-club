@@ -1,0 +1,14 @@
+.underline {
+ position: relative;
+}
+
+.underline:after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ border-top: solid 3px #D67225;
+ left: 0;
+ bottom: -10px;
+ border-radius: 50%;
+ height: 8px;
+}
