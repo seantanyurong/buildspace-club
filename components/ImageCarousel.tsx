@@ -14,7 +14,7 @@ import Fade from 'embla-carousel-fade';
 import robot from '@/public/images/robot_face.png';
 import alarm from '@/public/images/alarm_clock.png';
 import handshake from '@/public/images/handshake.png';
-import loudspkeaer from '@/public/images/loudspeaker.png';
+import loudspeaker from '@/public/images/loudspeaker.png';
 
 const SLIDES = [
   {
@@ -30,7 +30,7 @@ const SLIDES = [
     description: 'Our algorithm will match your community members for a 1:1 conversation',
   },
   {
-    imageUrl: loudspkeaer,
+    imageUrl: loudspeaker,
     description: 'Our bot will handle all group announcements and reminders',
   }
 ];

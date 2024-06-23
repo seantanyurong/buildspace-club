@@ -18,7 +18,7 @@ export default function Home() {
       <Header />
 
       <div className='flex flex-col md:flex-row justify-between items-center'>
-        <div className='w-full md:w-1/2 min-h-screen bg-muted px-10 flex items-center justify-center'>
+        <div className='w-full md:w-1/2 min-h-screen bg-muted px-5 md:px-10 flex items-center justify-center'>
           <div className='max-w-xl'>
             <h1 className='font-black text-3xl md:text-6xl text-foreground mb-5'>
               <Balancer>Build your community on telegram.</Balancer>
@@ -31,10 +31,10 @@ export default function Home() {
             <Card className='w-full mb-4 text-foreground'>
               <CardHeader>
                 <CardTitle className='text-md'>Are you a telegram community admin?</CardTitle>
-                <CardDescription><Balancer>If you&apos;re an admin, enter your email below and we will reach out via email with next steps.</Balancer></CardDescription>
+                <CardDescription><Balancer>If you&apos;re an admin, enter your email below and we will reach out with next steps.</Balancer></CardDescription>
               </CardHeader>
               <CardContent>
-                <div className='flex space-x-2'>
+                <div className='flex space-y-2 md:space-y-0 md:space-x-2 flex-col md:flex-row'>
                   <Input placeholder='thejoblessclub@gmail.com' />
                   <Button variant='secondary' className='shrink-0'>
                     I&apos;m interested
@@ -50,11 +50,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='w-full md:w-1/2 min-h-screen bg-white mx-auto max-w-4xl px-10 flex items-center justify-center'>
+        <div className='w-full md:w-1/2 min-h-screen bg-white mx-auto max-w-4xl px-5 md:px-10 flex items-center justify-center'>
           <div className='flex flex-col items-center justify-center'>
             <div className='max-w-md text-center mb-8'>
               <p className='text-muted-foreground text-sm mb-6 tracking-wider font-light'>HOW IT WORKS</p>
-              <p className='text-4xl font-bold mb-12'>Match members, <span className={styles.underline}>easily</span></p>
+              <p className='text-3xl md:text-4xl font-bold mb-12'>Match members, <span className={styles.underline}>easily</span></p>
             </div>
             <div><ImageCarousel /></div>
           </div>
