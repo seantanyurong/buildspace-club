@@ -1,19 +1,14 @@
 // Packages
 import Balancer from 'react-wrap-balancer';
 import Link from 'next/link';
-import Image from 'next/image';
 
 // Components
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ImageCarousel from '@/components/ImageCarousel';
 import { Badge } from '@/components/ui/badge';
-
-// Images
-import logo from '@/public/images/logo.png';
 
 // Styles
 import styles from './page.module.css';
@@ -23,17 +18,17 @@ export default function Home() {
     <div className='flex flex-col'>
       <Header />
       <div className='flex flex-col md:flex-row justify-between items-center'>
-        <div className='w-full md:w-1/2 min-h-screen bg-muted px-5 md:px-10 flex items-center justify-center'>
+        <div className='w-full md:w-1/2 min-h-screen bg-primary text-primary-foreground px-5 md:px-10 flex items-center justify-center'>
           <div className='max-w-xl'>
-            <h1 className='font-black text-3xl md:text-6xl text-foreground mb-5'>
+            <h1 className='font-black text-3xl md:text-6xl mb-5'>
               <Balancer>Build your community on telegram.</Balancer>
             </h1>
-            <p className='text-foreground mb-10'>
+            <p className='mb-10'>
               <Balancer>
                 We help telegram communities engage members by matching them for 1:1 chats every month - no fees.
               </Balancer>
             </p>
-            <Card className='w-full mb-4 text-foreground'>
+            <Card className='w-full mb-4'>
               <CardHeader>
                 <CardTitle className='text-md'>Are you a telegram community admin?</CardTitle>
                 <CardDescription>
@@ -51,7 +46,7 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-            <p className='text-muted-foreground text-xs ml-2'>
+            <p className='text-xs ml-2'>
               <Balancer>
                 If you sell tea, email us at{' '}
                 <Link href={'mailto:tehpengclub@gmail.com'} className='underline'>
