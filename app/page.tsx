@@ -18,7 +18,7 @@ export default function Home() {
     <div className='flex flex-col'>
       <Header />
       <div className='flex flex-col md:flex-row justify-between items-center'>
-        <div className='w-full md:w-1/2 md:min-h-screen bg-primary text-primary-foreground py-20 md:py-0 px-5 md:px-10 flex items-center justify-center'>
+        <div className='w-full md:w-1/2 md:min-h-screen bg-primary text-primary-foreground py-24 md:py-0 px-5 md:px-10 flex items-center justify-center'>
           <div className='max-w-xl'>
             <h1 className='font-header text-3xl md:text-6xl mb-5'>
               <Balancer>Build your community on telegram.</Balancer>
