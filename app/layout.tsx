@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import localFont from 'next/font/local'
 import './css/globals.css';
-
-const inter = Inter({ subsets: ["latin"] });
 
 const gabrielSans = localFont({
   variable: '--font-gabriel-sans',
@@ -11,7 +8,7 @@ const gabrielSans = localFont({
     {
       path: '../fonts/GabrielSans-Trial-Black.woff2',
       weight: '900',
-      style: 'normal',
+      style: 'black',
     },
   ],
 })
@@ -22,7 +19,7 @@ const gilroy = localFont({
     {
       path: '../fonts/Gilroy-Medium.ttf',
       weight: '500',
-      style: 'normal',
+      style: 'medium',
     },
   ],
 })

@@ -55,7 +55,7 @@ const ImageCarousel = () => {
               <Image
                 src={slide['imageUrl']}
                 alt={slide.description}
-                className='w-40 mx-auto mb-20'
+                className='w-40 mx-auto mb-10 md:mb-20'
                 placeholder='blur'
                 priority={true}
               />
