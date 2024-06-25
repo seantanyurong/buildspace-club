@@ -3,12 +3,10 @@ import Balancer from 'react-wrap-balancer';
 import Link from 'next/link';
 
 // Components
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import Header from '@/components/Header';
 import ImageCarousel from '@/components/ImageCarousel';
 import { Badge } from '@/components/ui/badge';
+import ContactForm from '@/components/ContactForm';
 
 // Styles
 import styles from './page.module.css';
@@ -28,24 +26,7 @@ export default function Home() {
                 We help telegram communities engage members by matching them for 1:1 chats every month - no fees.
               </Balancer>
             </p>
-            <Card className='w-full mb-4'>
-              <CardHeader>
-                <CardTitle className='text-md'>Are you a telegram community admin?</CardTitle>
-                <CardDescription>
-                  <Balancer>
-                    If you&apos;re an admin, enter your email below and we will reach out with next steps.
-                  </Balancer>
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className='flex space-y-2 md:space-y-0 md:space-x-2 flex-col md:flex-row'>
-                  <Input placeholder='thejoblessclub@gmail.com' />
-                  <Button variant='secondary' className='shrink-0'>
-                    I&apos;m interested
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+            <ContactForm />
             <p className='text-xs ml-2'>
               <Balancer>
                 If you sell tea or coffee, email us at{' '}
