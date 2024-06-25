@@ -36,7 +36,7 @@ const SLIDES = [
 ];
 
 const ImageCarousel = () => {
-  const plugin = useRef([Autoplay({ delay: 5000 }), Fade()]);
+  const plugin = useRef([Autoplay({ delay: 4000 }), Fade()]);
 
   return (
     <>
