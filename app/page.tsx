@@ -20,7 +20,7 @@ export default function Home() {
       <div className='flex flex-col md:flex-row justify-between items-center'>
         <div className='w-full md:w-1/2 min-h-screen bg-primary text-primary-foreground px-5 md:px-10 flex items-center justify-center'>
           <div className='max-w-xl'>
-            <h1 className='font-black text-3xl md:text-6xl mb-5'>
+            <h1 className='font-header text-3xl md:text-6xl mb-5'>
               <Balancer>Build your community on telegram.</Balancer>
             </h1>
             <p className='mb-10'>
@@ -61,8 +61,8 @@ export default function Home() {
         <div className='relative w-full md:w-1/2 min-h-screen bg-white mx-auto max-w-4xl px-5 md:px-10 flex items-center justify-center'>
           <div className='flex flex-col items-center justify-center'>
             <div className='max-w-md text-center mb-8'>
-              <p className='text-muted-foreground text-sm mb-6 tracking-wider font-light'>HOW IT WORKS</p>
-              <p className='text-3xl md:text-4xl font-bold mb-12'>
+              <p className='text-muted-foreground text-sm mb-6 tracking-wider'>HOW IT WORKS</p>
+              <p className='text-3xl md:text-4xl font-header mb-12'>
                 Match members, <span className={styles.underline}>easily</span>
               </p>
             </div>
