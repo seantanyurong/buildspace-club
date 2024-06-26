@@ -29,7 +29,7 @@ const ContactForm = () => {
       <CardHeader>
         <CardTitle className='text-md'>Are you part of a telegram community?</CardTitle>
         <CardDescription>
-          <Balancer>If you are, enter your email below and we will reach out with next steps.</Balancer>
+          <Balancer>If you are and want to connect with other members, enter your email below and we&apos;ll reach out with next steps.</Balancer>
         </CardDescription>
       </CardHeader>
       <CardContent>
