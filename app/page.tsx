@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
       <Badge className='hidden md:inline-block absolute bottom-5 right-5 px-4 py-2'>Built by The Jobless Club</Badge>
-      <div className='md:hidden flex justify-center mb-5'>
+      <div className='md:hidden flex justify-center mb-10'>
         <Badge className='px-4 py-2'>Built by The Jobless Club</Badge>
       </div>
     </div>
