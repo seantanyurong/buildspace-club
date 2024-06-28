@@ -33,9 +33,9 @@ const ContactForm = () => {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <form action={formAction} className='flex space-y-2 md:space-y-0 md:space-x-2 flex-col md:flex-row mb-4'>
+        <form action={formAction} className='flex space-y-2 md:space-y-0 flex-col md:flex-row mb-4'>
           <Label htmlFor='email' hidden>Email</Label>
-          <Input id='email' type='email' name='email' placeholder='thejoblessclub@gmail.com' required />
+          <Input id='email' type='email' name='email' placeholder='thejoblessclub@gmail.com' required className='md:mr-2' />
           <SubmitButton />
         </form>
         {state?.status === 'success' && (
