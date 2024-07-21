@@ -11,18 +11,18 @@ import Autoplay from 'embla-carousel-autoplay';
 import Fade from 'embla-carousel-fade';
 
 // Images
-import robot from '@/public/images/robot_face.png';
-import alarm from '@/public/images/alarm_clock.png';
+import pencil from '@/public/images/pencil.png';
+import house_buildings from '@/public/images/house_buildings.png';
 import handshake from '@/public/images/handshake.png';
-import loudspeaker from '@/public/images/loudspeaker.png';
+import microphone from '@/public/images/microphone.png';
 
 const SLIDES = [
   {
-    imageUrl: robot,
+    imageUrl: pencil,
     description: 'Apply through the form - to ensure you are a buildspace founder',
   },
   {
-    imageUrl: alarm,
+    imageUrl: house_buildings,
     description: 'Get accepted and join our private telegram community',
   },
   {
@@ -30,7 +30,7 @@ const SLIDES = [
     description: 'We will match you for a 1:1 conversation every month',
   },
   {
-    imageUrl: loudspeaker,
+    imageUrl: microphone,
     description: 'Connect, chat and learn from others through conversations',
   },
 ];

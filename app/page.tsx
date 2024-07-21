@@ -23,7 +23,8 @@ export default function Home() {
             </h1>
             <p className='mb-10'>
               <Balancer>
-                We match community members for 1:1 chats every month - to grow networks and learn from others.
+                We match buildspace founders for 1:1 chats every month - to help you grow your network and learn from
+                others.
               </Balancer>
             </p>
             <ContactForm />
