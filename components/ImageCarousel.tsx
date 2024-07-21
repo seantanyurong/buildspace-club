@@ -19,20 +19,20 @@ import loudspeaker from '@/public/images/loudspeaker.png';
 const SLIDES = [
   {
     imageUrl: robot,
-    description: 'Add Teh Peng Bot to your telegram community',
+    description: 'Apply through the form - to ensure you are a buildspace founder',
   },
   {
     imageUrl: alarm,
-    description: 'Set the frequency and configuration of the 1:1 matches',
+    description: 'Get accepted and join our private telegram community',
   },
   {
     imageUrl: handshake,
-    description: 'Our algorithm will match your community members for a 1:1 conversation',
+    description: 'We will match you for a 1:1 conversation every month',
   },
   {
     imageUrl: loudspeaker,
-    description: 'Our bot will handle all group announcements and reminders',
-  }
+    description: 'Connect, chat and learn from others through conversations',
+  },
 ];
 
 const ImageCarousel = () => {
@@ -59,7 +59,9 @@ const ImageCarousel = () => {
                 placeholder='blur'
                 priority={true}
               />
-              <p className='text-center text-muted-foreground text-lg'><Balancer>{slide.description}</Balancer></p>
+              <p className='text-center text-muted-foreground text-lg'>
+                <Balancer>{slide.description}</Balancer>
+              </p>
             </CarouselItem>
           ))}
         </CarouselContent>

@@ -1,19 +1,14 @@
 'use client';
 
-import { useFormStatus } from 'react-dom';
-import BeatLoader from 'react-spinners/BeatLoader';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export function SubmitButton() {
-  const { pending } = useFormStatus();
-
   return (
-    <Button type='submit' disabled={pending} className='shrink=0' variant='secondary'>
-      {pending ? (
-        <BeatLoader color='#000000' size={5} aria-label='Loading Spinner' data-testid='loader' speedMultiplier={0.5} />
-      ) : (
-        "I'm interested"
-      )}
-    </Button>
+    <Link href={'https://szuv34ek50v.typeform.com/to/TVOGVNNl'}>
+      <Button type='submit' className='shrink=0 w-full' variant='secondary'>
+        Join the community
+      </Button>
+    </Link>
   );
 }

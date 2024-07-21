@@ -19,11 +19,11 @@ export default function Home() {
         <div className='w-full md:w-1/2 md:min-h-screen bg-primary text-primary-foreground py-24 md:py-0 px-5 md:px-10 flex items-center justify-center'>
           <div className='max-w-xl'>
             <h1 className='font-header text-3xl md:text-6xl mb-5'>
-              <Balancer>Build your community on telegram.</Balancer>
+              <Balancer>Join the community for buildspace founders.</Balancer>
             </h1>
             <p className='mb-10'>
               <Balancer>
-                We help telegram communities engage members by matching them for 1:1 chats every month - no fees.
+                We match community members for 1:1 chats every month - to grow networks and learn from others.
               </Balancer>
             </p>
             <ContactForm />
@@ -44,7 +44,7 @@ export default function Home() {
             <div className='max-w-md text-center mb-8'>
               <p className='text-muted-foreground text-sm mb-6 tracking-wider'>HOW IT WORKS</p>
               <p className='text-3xl md:text-4xl font-header mb-4 md:mb-12'>
-                Match members, <span className={styles.underline}>easily</span>
+                Connect, <span className={styles.underline}>easily</span>
               </p>
             </div>
             <div>
